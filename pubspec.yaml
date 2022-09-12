@@ -1,0 +1,44 @@
+name: idream
+description: A dream start of Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.1
+  flex_color_picker: ^2.6.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/images/head_icon/
+    - assets/images/widgets/
+    - assets/flutter.db
+    - assets/version.json
+
+  fonts: # 配置字体，可配置多个，支持ttf和otf,ttc等字体资源
+    - family: CHOPS
+      fonts:
+        - asset: assets/fonts/CHOPS.TTF
+    - family: IBMPlexMono
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Light.ttf
+    - family: TolyIcon
+      fonts:
+        - asset: assets/iconfont/iconfont.ttf

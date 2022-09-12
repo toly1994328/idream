@@ -1,0 +1,9 @@
+{
+  "setting": "设置",
+  "colorThemeTitle": "选取主题色",
+  "colorThemeSubTitle": "秒表界面的高亮颜色为主题色",
+  "colorDialogTitle": "选择颜色",
+  "localTitle": "应用语言",
+  "localSubTitle": "设置本地文字语言信息",
+  "localDialogTitle": "选择语言"
+}

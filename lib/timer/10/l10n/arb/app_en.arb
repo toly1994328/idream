@@ -1,0 +1,9 @@
+{
+  "setting": "Setting",
+  "colorThemeTitle": "Select Theme Color",
+  "colorThemeSubTitle": "The highlighted color of the stopwatch",
+  "colorDialogTitle": "Select Color",
+  "localTitle": "App Language",
+  "localSubTitle": "Select local language for application",
+  "localDialogTitle": "Select Language"
+}
