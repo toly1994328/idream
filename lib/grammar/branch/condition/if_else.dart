@@ -1,11 +1,11 @@
 import 'dart:math';
 
 void main() {
-  bool flag = Random().nextBool();
-  if (flag) {
-    // flag 为真时执行的代码块
+  bool condition = Random().nextBool();
+  if (condition) {
+    // condition 为真时执行的代码块
   } else {
-    // flag 为假时执行的代码块
+    // condition 为假时执行的代码块
   }
 
   // print(getLevel(55)); // E

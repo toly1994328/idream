@@ -15,12 +15,6 @@ class Vec2 {
   double y;
   String? _name;
 
-  Vec2(this.x, this.y, {String? name}) : _name = name;
-
-  Vec2.polar(double length,double rad):
-        x = length*math.cos(rad),
-        y = length*math.sin(rad);
-
   // Vec2(double x, double y)
   //     : this.x = x,
   //       this.y = y;
@@ -28,6 +22,13 @@ class Vec2 {
   // Vec2(double argX, double argY)
   //     : x = argX,
   //       y = argY;
+
+  Vec2(this.x, this.y, {String? name}) : _name = name;
+
+  Vec2.polar(double length,double rad):
+        x = length*math.cos(rad),
+        y = length*math.sin(rad);
+
 
   String getInfo() => "${name}Vec2($x,$y)";
 
