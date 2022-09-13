@@ -1,7 +1,6 @@
 import 'shape.dart';
 import '../vec/vec2.dart';
-import 'package:idream/grammar/oop/grammar/02_/vec/vec2.dart';
-
+import 'package:idream/grammar/package/01/vec/vec2.dart';
 
 class Circle extends Shape{
   double radius;
