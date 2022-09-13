@@ -1,6 +1,5 @@
 import 'shape.dart';
 import '../vec/vec2.dart';
-import 'package:idream/grammar/oop/grammar/02/vec/vec2.dart';
 
 
 class Circle extends Shape{

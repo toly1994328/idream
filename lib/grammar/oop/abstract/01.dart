@@ -3,7 +3,7 @@ void main(){
   // Shape shape = Shape(Vec2(10,10));
 }
 
-  abstract class Shape{
+abstract class Shape{
     Vec2 center;
 
     Shape(this.center);

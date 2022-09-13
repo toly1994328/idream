@@ -5,9 +5,6 @@ void main(){
   AClass<int> intType = AClass(10);
   eggType.printType(); // 当前对象类型:Egg
   intType.printType(); // 当前对象类型:int
-
-  Map<int,String> map = {1:"one"};
-  String? info = find<int,String>(1, map);
 }
 
 class AClass<T>{
@@ -34,21 +31,6 @@ class BClass<T,V>{
 
   T getMemberT() => memberT;
   V getMemberV() => memberV;
-}
-
-// 方法泛型
-V? find<K,V>(K k,Map<K,V> map){
-  return map[k];
-}
-
-// 泛型限定
-class CClass<T extends Shape>{
-  final T memberT;
-  CClass(this.memberT);
-
-  void draw(){
-    memberT.draw();
-  }
 }
 
 class Egg{

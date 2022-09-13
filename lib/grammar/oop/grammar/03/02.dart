@@ -1,12 +1,6 @@
 void main(){
-  // String? name = null;
-  // print(name is Object); // false
-  // print(name is String); // false
-  // print(name is Null); // true
-  // say(name??"");
-
-  // Person toly = Person();
-  // toly.say();
+  Person toly = Person();
+  toly.say();
 
   String? name = null;
   say(name!);

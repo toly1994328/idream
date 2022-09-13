@@ -1,4 +1,3 @@
-import 'dart:math';
 
 void main(){
  Shape rectangle = Rectangle(Vec2(10,10));

@@ -20,11 +20,9 @@ class C implements A {
   }
 }
 
-// class C implements A {
-//
+// class C extends A {
 //   @override
-//   void log() {}
+//   void run() {
 //
-//   @override
-//   void run() {}
+//   }
 // }
