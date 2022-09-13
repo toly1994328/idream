@@ -1,22 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const TwoMyApp());
-}
-
-class TwoMyApp extends StatelessWidget {
-  const TwoMyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      textDirection: TextDirection.ltr,
-      children: const [
-        Expanded(child: MyApp()),
-        Expanded(child: MyApp()),
-      ],
-    );
-  }
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
