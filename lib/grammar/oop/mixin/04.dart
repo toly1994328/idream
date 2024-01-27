@@ -1,8 +1,7 @@
-import 'package:flutter/cupertino.dart';
 
 void main() {
-  C c = C();
-  c.log(); // B
+  // C c = C();
+  // c.log(); // B
 }
 
 class A {
@@ -17,11 +16,11 @@ abstract class B{
   void log();
 }
 
-class C with A, B {
-
-  @override
-  void log() {
-    super.log();// B
-    print("C");
-  }
-}
+// class C with A, B {
+//
+//   @override
+//   void log() {
+//     super.log();// B
+//     print("C");
+//   }
+// }
