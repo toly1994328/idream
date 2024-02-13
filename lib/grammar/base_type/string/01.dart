@@ -1,4 +1,6 @@
-main() {}
+main() {
+  foo4();
+}
 
 foo1() {
   String a = 'hello, toly';
@@ -22,6 +24,7 @@ foo4() {
 'hello', "toly"
   ''';
   String b = """
-'hello', "toly"
+    'hello', 
+    "toly"
   """;
 }

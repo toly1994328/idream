@@ -1,5 +1,4 @@
 main() {
-  // List<String> rmbUnits = ['元','角','分'];
 
   Map<String,String> dict = {
     'about': '关于',
@@ -12,14 +11,6 @@ main() {
   dict['boot'] = '启动,靴子';
   print(dict.length);
   dict.remove('cat');
-
-
-
-  // List<String> rmbUnits = [
-  //   '零','壹','贰','叁','肆','伍','陆', '柒','捌','玖',
-  //   '拾','佰','仟','萬','亿'
-  // ];
-  // foo2();
 }
 
 void foo1() {
